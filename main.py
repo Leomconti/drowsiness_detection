@@ -1,15 +1,15 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from threading import Thread
 import dlib
 import cv2
 import imutils
-import time
 from imutils import face_utils
+from imutils.video import VideoStream
 from scipy.spatial import distance as dist
 import playsound
 import argparse
-import matplotlib.pyplot as plt
-from threading import Thread
-from imutils.video import VideoStream
-import numpy as np
+import time
 
 alarm_sound = "drowsiness_detection/resources/alarm.wav"
 
